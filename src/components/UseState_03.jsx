@@ -6,17 +6,17 @@ export default () => {
   const [valor2, setValor2] = useState(2);
 
   function diminuir() {
-    setValor1((v) => v - 1);
+    setValor1(v => v - 1);
   }
   function aumentar() {
-    setValor1((v) => v + 1);
+    setValor1(v => v + 1);
   }
 
   function diminuir_2() {
-    setValor2((v) => v - 1);
+    setValor2(v => v - 1);
   }
   function aumentar_2() {
-    setValor2((v) => v + 1);
+    setValor2(v => v + 1);
   }
 
   return (
